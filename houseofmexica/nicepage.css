@@ -43882,9 +43882,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-menu-1 {
-    margin-top: 16px;
-    margin-right: 0;
-    margin-bottom: 16px;
+    margin-top: 18px;
+    margin-right: -20px;
+    margin-bottom: 14px;
   }
 
   .u-header .u-nav-2 {
