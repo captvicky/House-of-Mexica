@@ -1,6 +1,5 @@
  .u-section-1 {
   background-image: url("images/mexicasepatu1.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -8,6 +7,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 400px;
   }
@@ -27,14 +30,14 @@
 
 .u-section-2 .u-group-1 {
   width: 800px;
-  min-height: 283px;
+  min-height: 253px;
   height: auto;
   --radius: 20px;
   margin: -74px auto 60px;
 }
 
 .u-section-2 .u-container-layout-1 {
-  padding: 0 30px;
+  padding: 0 30px 30px;
 }
 
 .u-section-2 .u-image-1 {
@@ -46,12 +49,12 @@
 .u-section-2 .u-text-1 {
   font-size: 4.5rem;
   font-weight: 400;
-  margin: 22px 46px 0;
+  margin: 0 11px;
 }
 
 .u-section-2 .u-text-2 {
   font-weight: 700;
-  margin: 8px auto 0;
+  margin: 11px auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -90,14 +93,13 @@
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 129px;
+    min-height: 182px;
   }
 
   .u-section-2 .u-group-1 {
-    margin-bottom: 20px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    min-height: 230px;
+    width: 694px;
+    margin-bottom: 26px;
   }
 
   .u-section-2 .u-image-1 {
@@ -107,8 +109,8 @@
 
   .u-section-2 .u-text-1 {
     margin-top: 10px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 7px;
+    margin-right: 7px;
   }
 }
 
@@ -120,9 +122,7 @@
   .u-section-2 .u-group-1 {
     margin-bottom: 29px;
     min-height: 192px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 540px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -152,9 +152,7 @@
     margin-top: -441px;
     margin-bottom: 60px;
     min-height: 168px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 340px;
   }
 
   .u-section-2 .u-text-1 {
